@@ -1,0 +1,47 @@
+body {
+	text-align: center;
+}
+
+#errorDisplay {
+	color: red;
+}
+
+#board {
+	margin: auto;
+}
+
+.startBtn {
+	width: 70px;
+	height: 20px;
+	background: #E0E0E0;
+	border: 1px solid black;
+	margin: 20px auto;
+}
+
+.startBtn:hover {
+	cursor: pointer;
+}
+
+button {
+	width: 20px;
+	height: 20px;
+}
+
+p {
+	margin-top: 0px;
+}
+
+p:hover {
+	cursor: default;
+}
+
+#board > div {
+	height: 20px;
+	margin: auto;
+	display: flex;
+}
+
+#board > div > div {
+	height: 20px;
+	width: 20px;
+}
